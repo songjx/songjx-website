@@ -1,0 +1,2 @@
+highlighter: pygments
+exclude: [Gemfile, Gemfile~, Gemfile.lock]

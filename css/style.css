@@ -1,0 +1,49 @@
+body {
+    padding-left:300px;
+    margin:0;
+}
+
+#sidebar {
+    width:280px;
+    background-color:#32B4C5;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    padding:10px;
+    box-shadow:-52px 0px 150px -20px rgba(0, 0, 0, 0.1) inset;
+    text-align:center;
+}
+
+#sidebar, #sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+#sidebar a:hover {
+    color:hotPink;
+}
+
+#content {
+    background-color:white;
+    height:100%;
+    padding:20px;
+}
+
+#menu {
+    padding: 0;
+    margin: 0;
+}
+
+#menu > li {
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    list-style-type:none;
+    font-size:150%;
+}
+
+i.account {
+    margin:0px 2px;
+}
+

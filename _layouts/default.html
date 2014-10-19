@@ -1,0 +1,37 @@
+{% assign jackieData = site.data.jackie %}
+
+<!doctype HTML>
+
+<html>
+	<head>
+		<title>Jackie Song | {{ page.title }}</title>
+		<meta charset='utf-8'>
+        <link   href="{{ site.url }}/css/style.css" 
+                rel="stylesheet" 
+                type="text/css" />
+        <link   href="{{ site.url }}/font-awesome-4.2.0/css/font-awesome.min.css" 
+                rel="stylesheet" 
+                type="text/css" />
+	</head>
+    <body>
+        <div id="sidebar">
+            <h1>Jackie Song</h1>
+            {% for account in jackieData.accounts %}
+                <a href="{{ account.url }}" title="{{ account.site }}">
+                    <i class="fa {{ account.icon }} fa-3x account"></i>
+                </a>
+            {% endfor %}
+            <ul id="menu">
+                <li>(home)</li>
+                <li>(about)</li>
+                <li>(projects)</li>
+                <li>(diy)</li>
+            </ul>
+        </div>
+        <div id="content">
+ 		    {{ content }}
+        </div>
+
+	</body>
+</html>
+
