@@ -5,12 +5,12 @@ accounts:
   - site: Github
     url: http://github.com/songjx
     icon: fa-github-square
-  - site: Facebook
-    url: http://www.facebook.com/jackie.hey.song
-    icon: fa-facebook-square
   - site: LinkedIn
     url: http://www.linkedin.com/pub/jacqueline-song/64/945/570/
     icon: fa-linkedin-square
+  - site: Facebook
+    url: http://www.facebook.com/jackie.hey.song
+    icon: fa-facebook-square
   - site: Youtube
     url: http://www.youtube.com/user/lavatomato
     icon: fa-youtube-square

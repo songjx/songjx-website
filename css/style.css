@@ -13,6 +13,7 @@ body {
     padding:10px;
     box-shadow:-52px 0px 150px -20px rgba(0, 0, 0, 0.1) inset;
     text-align:center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #sidebar, #sidebar a {
@@ -20,7 +21,7 @@ body {
     text-decoration: none;
 }
 
-#sidebar a:hover {
+#sidebar a:hover, #content a:hover {
     color:hotPink;
 }
 
@@ -28,6 +29,7 @@ body {
     background-color:white;
     height:100%;
     padding:20px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #menu {
@@ -46,4 +48,17 @@ body {
 i.account {
     margin:0px 2px;
 }
+
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6, #content a {
+    color: #2296A5;
+}
+
+#content a {
+    text-decoration: none;
+}
+
+#content a:hover {
+    text-decoration: underline;
+}
+
 
