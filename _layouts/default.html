@@ -1,4 +1,5 @@
 {% assign jackieData = site.data.jackie %}
+{% assign menuData = site.data.menu %}
 
 <!doctype HTML>
 
@@ -28,10 +29,11 @@
                 </a>
             {% endfor %}
             <ul id="menu">
-                <li>(home)</li>
-                <li>(about)</li>
-                <li>(projects)</li>
-                <li>(diy)</li>
+                {% for item in menuData.items %}
+                        <a href="{{ site.url }}/{{ item.folder }}">
+                            <li> {{ item.name }} </li>
+                        </a>
+                {% endfor %}
             </ul>
         </div>
         <div id="content">

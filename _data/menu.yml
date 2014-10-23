@@ -1,0 +1,10 @@
+---
+items: 
+  - name: Home
+    folder: 
+  - name: About
+    folder: about
+  - name: Projects
+    folder: projects
+  - name: DIY
+    folder: diy
