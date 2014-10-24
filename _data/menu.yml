@@ -1,13 +1,11 @@
 ---
-items: 
-  - name: Home
-  - name: About
+Home: 
+About:
     folder: about
-  - name: Projects
+Projects:     
     folder: projects
-  - name: DIY
+DIY:     
     folder: diy
     subcats: [Jewelry, Laser cutting, Food, Miscellaneous]
-  - name: Resources
+Resources:
     folder: resources
-    subcats: [Downloads, Links]

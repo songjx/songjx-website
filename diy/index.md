@@ -3,8 +3,7 @@ title: DIY
 layout: default
 ---
 
-{% assign subcats = site.data.menu.items.diy.subcats %}
-
-{% for subcat in subcats %}
-{{ subcat }}
+{% assign diyData = site.data.menu.DIY %}
+{% for subcat in diyData.subcats %}
+## {{ subcat }}
 {% endfor %}

@@ -3,6 +3,10 @@ body {
     margin:0;
 }
 
+#name {
+    font-size:300%;
+}
+
 #sidebar {
     width:300px;
     background-color:#32B4C5;
@@ -48,15 +52,32 @@ body {
     font-size:150%;
 }
 
-#menu li:hover, #sidebar i:hover {
+#menu li:hover {
     box-shadow: 0px 0px 70px 10px rgba(255,255,255,.2) inset;
 }
 
-i.account {
+#accounts {
+    margin: 30px 0px;
+}
+
+.fa {
     margin:0px 2px;
 }
 
-#content h1, #content h2, #content h3, #content h4, #content h5, #content h6, #content a {
+.fa-square {
+    color: transparent;
+}
+
+.activeIcon {
+    color: rgba(255,255,255,0.5);
+}
+
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+    color: #212233
+    clear: both;
+}
+
+#content a {
     color: SteelBlue;
 }
 
@@ -68,4 +89,8 @@ i.account {
     text-decoration: underline;
 }
 
-
+img {
+    width: 50%;
+    display:block;
+    float:right;
+}
