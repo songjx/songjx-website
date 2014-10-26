@@ -10,10 +10,12 @@ layout: default
 <hr>
 <div id="links">
 {% for category in linkData %}
-    <h3>{{ category[0] }}</h3>
-        {% for link in category[1] %}
-        <a href="{{ link.url }}">{{ link.name }}</a>: {{ link.tagline }} <br />
-        {% endfor %}
+    <div class="linkCat">
+        <h3>{{ category[0] }}</h3>
+            {% for link in category[1] %}
+            <a href="{{ link.url }}">{{ link.name }}</a>: {{ link.tagline }} <br />
+            {% endfor %}
+    </div>
 {% endfor %}
 </div>
 

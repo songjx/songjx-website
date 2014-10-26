@@ -123,3 +123,7 @@ hr {
     position: relative;
     bottom:-.25em;
 }
+
+.linkCat {
+    display: inline-block;
+}
