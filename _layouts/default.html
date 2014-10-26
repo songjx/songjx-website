@@ -7,10 +7,10 @@
 	<head>
 		<title>Jackie Song | {{ page.title }}</title>
 		<meta charset='utf-8'>
-        <link   href="{{ site.url }}/css/style.css" 
+        <link   href="/css/style.css" 
                 rel="stylesheet" 
                 type="text/css" />
-        <link   href="{{ site.url }}/font-awesome-4.2.0/css/font-awesome.min.css" 
+        <link   href="/font-awesome-4.2.0/css/font-awesome.min.css" 
                 rel="stylesheet" 
                 type="text/css" />
         <link   href='http://fonts.googleapis.com/css?family=Open+Sans' 
@@ -37,7 +37,7 @@
             </div>
             <ul id="menu">
                 {% for item in menuData %}
-                        <a href="{{ site.url }}/{{ item[1].folder }}">
+                        <a href="{{ item[1].folder }}">
                             <li> {{ item[0] | downcase }} </li>
                         </a>
                 {% endfor %}
@@ -47,7 +47,7 @@
             <h1> {{ page.title }} </h1>
  		    {{ content }}
         </div>
-        <script src="{{ site.url }}/js/jquery-2.1.1.min.js"></script>
+        <script src="js/jquery-2.1.1.min.js"></script>
         <script> 
             $(document).ready(function() {
                 console.log('test.');

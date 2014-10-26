@@ -22,14 +22,14 @@ layout: default
 {% for item in downloadData.items %}
 <div class="downloadItem">
     <img 
-        src="{{ site.url }}/images/{{ downloadData.image-folder }}/{{ item.image }}" 
+        src="/images/{{ downloadData.image-folder }}/{{ item.image }}" 
         alt="{{ item.name }}">
     <h3>{{ item.name }}</h3>
     {{ item.description }}  
     <ul>
         {% for file in item.files %}
         <li>
-            <a href="{{ site.url }}/downloads/{{ file }}">{{ file }}</a>
+            <a href="/downloads/{{ file }}">{{ file }}</a>
         </li>
         {% endfor %}
     </ul>

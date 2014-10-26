@@ -1,11 +1,11 @@
 ---
 Home: 
 About:
-    folder: about
+    folder: /about
 Projects:     
-    folder: projects
+    folder: /projects
 DIY:     
-    folder: diy
+    folder: /diy
     subcats: [Jewelry, Laser cutting, Food, Miscellaneous]
 Resources:
-    folder: resources
+    folder: /resources
