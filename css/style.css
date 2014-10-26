@@ -73,8 +73,12 @@ body {
 }
 
 #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
-    color: #212233
-    clear: both;
+    color: #212233;
+    margin-bottom: 0.5em;
+}
+
+#content .on-hr {
+    margin-bottom: 0em;
 }
 
 #content a {
@@ -93,4 +97,29 @@ img {
     width: 50%;
     display:block;
     float:right;
+}
+
+.downloadItem:after {
+    clear:both;
+    content:"";
+    display:block;
+}
+
+#links {
+    -webkit-column-count:2;
+    -moz-column-count:2;
+    column-count: 2;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    border:0;
+    border-bottom:1px solid #B0B0B0;
+}
+
+.on-hr i {
+    float:right;
+    position: relative;
+    bottom:-.25em;
 }

@@ -1,12 +1,12 @@
 ---
 Supplies:
   - name: McMaster-Carr
-    url: mcmaster.com
+    url: http://mcmaster.com
     tagline: 'tools, hardware, materials, and industrial supplies.'
   - name: Sparkfun
-    url: sparkfun.com
+    url: http://sparkfun.com
     tagline: 'electronics and robotics supplies.'
 DIY/Tutorials: 
   - name:  Instructables 
-    url: instructables.com
+    url: http://instructables.com
     tagline: 'a community for user-created projects.'

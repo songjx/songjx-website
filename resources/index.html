@@ -1,0 +1,39 @@
+---
+title: Resources
+layout: default
+---
+
+{% assign linkData = site.data.links %}
+{% assign downloadData = site.data.downloads %}
+
+<h2 class="on-hr">Links <i class="fa fa-external-link"></i></h2>
+<hr>
+<div id="links">
+{% for category in linkData %}
+    <h3>{{ category[0] }}</h3>
+        {% for link in category[1] %}
+        <a href="{{ link.url }}">{{ link.name }}</a>: {{ link.tagline }} <br />
+        {% endfor %}
+{% endfor %}
+</div>
+
+<h2 class="on-hr">Downloads <i class="fa fa-download"></i></h2>
+<hr>
+{% for item in downloadData.items %}
+<div class="downloadItem">
+    <img 
+        src="{{ site.url }}/images/{{ downloadData.image-folder }}/{{ item.image }}" 
+        alt="{{ item.name }}">
+    <h3>{{ item.name }}</h3>
+    {{ item.description }}  
+    <ul>
+        {% for file in item.files %}
+        <li>
+            <a href="{{ site.url }}/downloads/{{ file }}">{{ file }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endfor %}
+
+
