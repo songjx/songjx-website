@@ -20,15 +20,15 @@ p {
     top:0;
     left:0;
     padding:10px 0px;
-    box-shadow:-52px 0px 150px -20px rgba(0, 0, 0, 0.35) inset;
+    box-shadow:-52px 0px 150px -20px rgba(0, 0, 0, 0.15) inset;
     text-align:center;
     font-family: 'Open Sans', sans-serif;
-    background-image: url('../images/blurduino.jpg');
+    background-image: url('../images/noisy_grid.png');
     background-position: center;
 }
 
 #sidebar, #sidebar a {
-    color: white;
+    color: #333333;
     text-decoration: none;
 }
 
@@ -38,10 +38,12 @@ p {
 
 #content {
     background-color:white;
-    height:100%;
     padding:20px 40px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 120%;
+    font-size: 100%;
+    width: 55%;
+    margin:auto;
+    margin-top:3%;
 }
 
 #menu {
@@ -58,7 +60,7 @@ p {
 }
 
 #menu li:hover {
-    box-shadow: 0px 0px 70px 10px rgba(255,255,255,.2) inset;
+    box-shadow: 0px 0px 70px 10px rgba(255,255,255,.9) inset;
 }
 
 #accounts {
@@ -74,7 +76,7 @@ p {
 }
 
 .activeIcon {
-    color: rgba(255,255,255,0.5);
+    color: rgba(255,255,255,1);
 }
 
 #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
@@ -99,9 +101,9 @@ p {
 }
 
 img {
-    width: 50%;
+    width: 40%;
     display:block;
-    /*float:right;*/
+    float:left;
 }
 
 .downloadItem:after {
@@ -143,3 +145,27 @@ hr {
 .tile img {
     width: 100%;
 }
+
+.img-step:after {
+    clear:both;
+    display:block;
+    content:'';
+}
+
+.img-step img {
+    margin-right: 3%;
+    border-radius:2%;
+}
+
+.img-step {
+    background-color: whiteSmoke;
+    padding: 2% 2%;
+    margin-top: 3%;
+    border-radius:3%;
+    width: 95%;
+}
+
+.img-step p {
+    margin-top: 0;
+}
+
