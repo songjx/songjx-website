@@ -10,7 +10,12 @@ layout: default
 {% if page.categories != null %}
 {% for cat in page.categories %}
 {% if cat == subcat %}
-<a href="{{ page.url }}">{{ page.title }}</a>
+<div class="tile">
+    <a href="{{ page.url }}">
+        <img src="{{ page.image-dir }}/{{ page.thumbnail }}">
+        {{ page.title }}
+    </a>
+</div>
 {% endif %}
 {% endfor %}
 {% endif %}

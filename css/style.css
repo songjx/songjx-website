@@ -101,7 +101,7 @@ p {
 img {
     width: 50%;
     display:block;
-    float:right;
+    /*float:right;*/
 }
 
 .downloadItem:after {
@@ -131,4 +131,15 @@ hr {
 
 .linkCat {
     display: inline-block;
+}
+
+.tile {
+    width:200px;
+    border:1px solid lightGray;
+    border-radius:3px;
+    text-align: center;
+}
+
+.tile img {
+    width: 100%;
 }
