@@ -1,5 +1,5 @@
 body {
-    padding-left:300px;
+    padding-left:250px;
     margin:0;
 }
 
@@ -9,11 +9,13 @@ p {
 }
 
 #name {
-    font-size:300%;
+    font-size:250%;
+    margin-top:25%;
 }
 
 #sidebar {
-    width:300px;
+    width:25%;
+    max-width: 250px;
     background-color:#32B4C5;
     height:100%;
     position:fixed;
@@ -38,12 +40,12 @@ p {
 
 #content {
     background-color:white;
-    padding:20px 40px;
+    padding:40px 40px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 100%;
-    width: 55%;
+    font-size: 105%;
+    width: 60%;
     margin:auto;
-    margin-top:3%;
+    margin-top:5%;
 }
 
 #menu {
@@ -146,26 +148,21 @@ hr {
     width: 100%;
 }
 
-.img-step:after {
+.img-step p:after {
     clear:both;
     display:block;
     content:'';
 }
 
 .img-step img {
-    margin-right: 3%;
+    margin-left: 3%;
     border-radius:2%;
+    float:right;
 }
 
 .img-step {
-    background-color: whiteSmoke;
-    padding: 2% 2%;
-    margin-top: 3%;
-    border-radius:3%;
-    width: 95%;
-}
-
-.img-step p {
-    margin-top: 0;
+    margin: 1em 1em 1em 0%;
+    border-left: .7em solid whiteSmoke;
+    padding-left: .7em;
 }
 
