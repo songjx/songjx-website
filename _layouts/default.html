@@ -49,7 +49,9 @@
                 {% for segment in page.segments %}
                     {% if segment.image %}
                         <div class="img-step">
-                            <img src="{{ page.image-dir }}/{{ segment.image }}">
+                            <a href="{{ page.image-dir }}/{{ segment.image }}">
+                                <img src="{{ page.image-dir }}/{{ segment.image }}">
+                            </a>
                             <p>{{ segment.text }}</p>
                         </div>
                     {% elsif segment.video %}
