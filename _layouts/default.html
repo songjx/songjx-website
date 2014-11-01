@@ -52,6 +52,10 @@
                             <img src="{{ page.image-dir }}/{{ segment.image }}">
                             <p>{{ segment.text }}</p>
                         </div>
+                    {% elsif segment.video %}
+                        <div class="video-wrapper">
+                            {{ segment.video }}
+                        </div>
                     {% else %}
                         <p>{{ segment.text }}</p>
                     {% endif %}
