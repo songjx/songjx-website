@@ -21,7 +21,7 @@ p {
     position:fixed;
     top:0;
     left:0;
-    padding:10px 0px;
+    padding:10px 10px;
     box-shadow:-52px 0px 150px -20px rgba(0, 0, 0, 0.15) inset;
     text-align:center;
     font-family: 'Open Sans', sans-serif;
@@ -84,6 +84,7 @@ p {
 #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
     color: #212233;
     margin-bottom: 0.5em;
+    clear: both;
 }
 
 #content .on-hr {
@@ -108,11 +109,6 @@ img {
     float:left;
 }
 
-.downloadItem:after {
-    clear:both;
-    content:"";
-    display:block;
-}
 
 #links {
     -webkit-column-count:2;
@@ -139,16 +135,22 @@ hr {
 
 .tile {
     width:200px;
+    margin-right: 1em;
     border:1px solid lightGray;
     border-radius:3px;
     text-align: center;
+    float:left;
 }
 
 .tile img {
     width: 100%;
 }
 
-.img-step p:after {
+.tile:hover {
+    opacity: 0.7;
+}
+
+.img-step p:after, .downloadItem:after, .tile-wrapper:after {
     clear:both;
     display:block;
     content:'';

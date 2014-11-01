@@ -6,18 +6,20 @@ layout: default
 {% assign diyData = site.data.menu.DIY %}
 {% for subcat in diyData.subcats %}
 <h2>{{ subcat }}</h2>
-{% for page in site.pages %}
-{% if page.categories != null %}
-{% for cat in page.categories %}
-{% if cat == subcat %}
-<div class="tile">
-    <a href="{{ page.url }}">
-        <img src="{{ page.image-dir }}/{{ page.thumbnail }}">
-        {{ page.title }}
-    </a>
-</div>
-{% endif %}
-{% endfor %}
-{% endif %}
-{% endfor %}
+    <div class="tile-wrapper">
+        {% for page in site.pages %}
+        {% if page.categories != null %}
+        {% for cat in page.categories %}
+        {% if cat == subcat %}
+        <div class="tile">
+            <a href="{{ page.url }}">
+                <img src="{{ page.image-dir }}/{{ page.thumbnail }}">
+                {{ page.title }}
+            </a>
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+        {% endfor %}
+    </div>
 {% endfor %}
