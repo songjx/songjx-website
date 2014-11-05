@@ -48,12 +48,20 @@
             {% if page.image-layout == true %}
                 {% for segment in page.segments %}
                     {% if segment.image %}
-                        <div class="img-step">
-                            <a href="{{ page.image-dir }}/{{ segment.image }}">
-                                <img src="{{ page.image-dir }}/{{ segment.image }}">
-                            </a>
-                            <p>{{ segment.text }}</p>
-                        </div>
+                        {% if segment.text %}
+                            <div class="img-step">
+                                <a href="{{ page.image-dir }}/{{ segment.image }}">
+                                    <img    alt="{{ segment.alt }}"
+                                            src="{{ page.image-dir }}/{{ segment.image }}">
+                                </a>
+                                <p>{{ segment.text }}</p>
+                            </div>
+                        {% else %}
+                            <div class="img-wide">
+                                <img    alt="{{ segment.alt }}"
+                                        src="{{ page.image-dir }}/{{ segment.image }}">
+                            </div>
+                        {% endif %}
                     {% elsif segment.video %}
                         <div class="video-wrapper">
                             {{ segment.video }}

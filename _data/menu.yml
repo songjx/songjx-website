@@ -5,6 +5,7 @@ About:
     folder: /about
 Projects:     
     folder: /projects
+    subcats: [Ongoing, Completed]
 DIY:     
     folder: /diy
     subcats: [Jewelry, Laser cutting, Food, Miscellaneous]
