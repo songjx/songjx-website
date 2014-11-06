@@ -16,7 +16,6 @@ p {
 #sidebar {
     width:25%;
     max-width: 250px;
-    background-color:#32B4C5;
     height:100%;
     position:fixed;
     top:0;
@@ -103,11 +102,10 @@ p {
     text-decoration: underline;
 }
 
-img {
-    width: 40%;
+/*img {
     display:block;
     float:left;
-}
+}*/
 
 
 #links {
@@ -157,6 +155,7 @@ hr {
 }
 
 .img-step img {
+    width: 40%;
     margin-left: 3%;
     float:right;
 }
@@ -175,12 +174,12 @@ hr {
 
 .video-wrapper {
     padding-left: 10%;
-    margin: 1em 0;
+    margin: 1.5em 0;
 }
 
-.img-wide {
+img, .img-wide {
     width: 80%;
-    margin: auto;
+    margin: 1.5em auto;
 }
 
 .img-wide img {
