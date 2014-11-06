@@ -142,6 +142,7 @@ hr {
 
 .tile img {
     width: 100%;
+    margin: 0;
 }
 
 .tile:hover, .img-step img:hover {
