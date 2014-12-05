@@ -31,6 +31,9 @@ segments:
 
   - video: <iframe width="560" height="315" src="//www.youtube.com/embed/6i8_cj7t9Mw" frameborder="0" allowfullscreen></iframe>
 
+  - text: 005 is a pultruded sample; 010 was dipped.
+    image: filament-samples.jpg
+
   - text: We have run some tensile tests on our filament samples using aperture cards to fix and protect the ends. Due to trouble aligning the filament to achieve pure uniaxial tension in these tests, we will explore other end fixturing options. However, our preliminary test results are promising in terms of tensile strength. 
     image: instron.jpg
     alt: aperture card instron test
@@ -40,7 +43,7 @@ segments:
   - video: <iframe width="560" height="315" src="//www.youtube.com/embed/64UAyw-wtNg" frameborder="0" allowfullscreen></iframe>
 
   - text: We are in the process of adapting RepRap parts to our robot arm end. Once we have successfully printed ABS plastic, we will move onto printing our homemade CFRP filament.
-    image: cad-10-30.png
-    alt: preliminary end effector CAD
+    image: Render1.jpg
+    alt: end effector CAD
 
 ---
