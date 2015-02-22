@@ -6,7 +6,7 @@ image-layout: true
 image-dir: /images/carbon-fiber
 thumbnail: pultrusion.jpg
 segments: 
-  - text: For our capstone mechanical engineering senior project at The Cooper Union, <a href="http://www.peterascoli.com">Peter Ascoli</a> and I are working on a filament manufacturing and printing method for curved-layer carbon fiber reinforced polymer fused deposition modeling. 
+  - text: For our capstone mechanical engineering senior project at The Cooper Union, <a href="http://www.peterascoli.com">Peter Ascoli</a> and I are working on a filament manufacturing and printing method for curved-layer carbon fiber reinforced polymer fused deposition modeling. <a href="https://s3.amazonaws.com/jsong.me/Peter+Jackie+Senior+Project+Semester+1+Poster.pdf">View our fall semester project poster here!</a>
 
   - text: 'Our project was developed with desktop FDM (fused deposition modeling) printers in mind. They''re now inexpensive and fairly accessible, but they seldom produce usable mechanical parts. The main reason is the strength of materials used. The next is the slicing method: most desktop 3D printers deposit flat layers parallel to the build plate. This limitation makes model slicing relatively simple. However, FDM materials tend to exhibit much greater strength along the direction of the extruded fiber than across the layers; thus, thin curved features printed with flat layers tend to perform poorly.'
 
