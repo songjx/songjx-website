@@ -38,9 +38,9 @@ segments:
     image: instron.jpg
     alt: aperture card instron test
 
-  - text: To our huge benefit, the school has a small FANUC industrial robot arm available for our use. This arm provides 3 translational and 3 rotational degrees of freedom for our end effector, which means we will have incredible flexibility in generating curved layer printing tool paths.
+  - text: To our huge benefit, the school has a small FANUC industrial robot arm available for our use. This arm provides 3 translational and 3 rotational degrees of freedom for our end effector, which means we will have incredible flexibility in generating curved layer printing tool paths. The following video demonstrates how the FANUC robot can be used to print curved-layer FDM objects using a combination of simple motion and branching instructions.
 
-  - video: <iframe width="560" height="315" src="//www.youtube.com/embed/64UAyw-wtNg" frameborder="0" allowfullscreen></iframe>
+  - video: <iframe width="560" height="315" src="https://www.youtube.com/embed/Wy3BejQz0mA?list=PLfvOJvcxNZ4-i63-xdD4xOHczMNj5-sN_" frameborder="0" allowfullscreen></iframe> 
 
   - text: We are in the process of adapting RepRap parts to our robot arm end. Once we have successfully printed ABS plastic, we will move onto printing our homemade CFRP filament.
     image: Render1.jpg
