@@ -21,8 +21,9 @@
                 type='text/css'>
 	</head>
     <body>
-        <div id="sidebar">
-            <a href="/"><p id="name">Jackie Song</p></a> 
+        <div id="banner">
+            <a href="/"><p id="name">jsong.me</p></a> 
+            <!---
             <div id="accounts">
                 {% for account in jackieData.accounts %}
                 {% if account.icon != null %}
@@ -35,6 +36,7 @@
                 {% endif %}
                 {% endfor %}
             </div>
+            --->
             <ul id="menu">
                 {% for item in menuData %}
                         <a href="{{ item[1].folder }}">

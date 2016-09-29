@@ -1,5 +1,4 @@
 body {
-    padding-left:250px;
     margin:0;
 }
 
@@ -10,25 +9,24 @@ p {
 
 #name {
     font-size:250%;
-    margin-top:25%;
+    margin: 0;
+    float:left;
 }
 
-#sidebar {
-    width:25%;
-    max-width: 250px;
-    height:100%;
-    position:fixed;
-    top:0;
-    left:0;
-    padding:10px 0px;
-    box-shadow:-52px 0px 150px -20px rgba(0, 0, 0, 0.15) inset;
-    text-align:center;
+#banner {
+    width:100%;
+    padding: 10px 0px;
+    box-shadow: -52px 0px 150px -20px rgba(0, 0, 0, 0.15) inset;
     font-family: 'Open Sans', sans-serif;
     background-image: url('../images/noisy_grid.png');
     background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-#sidebar, #sidebar a {
+#banner, #banner a {
     color: #333333;
     text-decoration: none;
 }
@@ -49,12 +47,11 @@ p {
 #menu {
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 #menu li  {
-    width:100%;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding: 0 10px;
     list-style-type:none;
     font-size:150%;
 }
@@ -63,8 +60,9 @@ p {
     box-shadow: 0px 0px 70px 10px rgba(255,255,255,.9) inset;
 }
 
-#accounts {
-    margin: 30px 0px;
+#name, #menu, #accounts, #menu li {
+    /*float:left;*/
+    display: inline-block;
 }
 
 .fa {
@@ -101,12 +99,6 @@ p {
 #content a:hover {
     text-decoration: underline;
 }
-
-/*img {
-    display:block;
-    float:left;
-}*/
-
 
 #links {
     -webkit-column-count:2;
