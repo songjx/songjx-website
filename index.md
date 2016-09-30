@@ -7,11 +7,11 @@ layout: default
 
 ## Hello!
 
-I'm Jackie Song, a senior mechanical engineering student at The Cooper Union for the Advancement of Science and Art in New York, NY. I'm working on 3D printing carbon fiber, an industrial tube notcher, and much more. 
+I'm Jackie Song, engineer and person who likes to make things.
 
 ## Contact
 
-View my [resume](/downloads/jackie-song-resume.pdf), email me at <{{ jackieData.email }}>, or find me on these other sites: 	
+Email me at <{{ jackieData.email }}>, or find me on these other sites:
 
 {% for account in jackieData.accounts %}+ 
 [{{ account.site }}]({{ account.url }})
@@ -19,4 +19,4 @@ View my [resume](/downloads/jackie-song-resume.pdf), email me at <{{ jackieData.
 
 ## Site
 
-This site was generated using [Jekyll](http://jekyllrb.com) and is hosted on [Github Pages](https://pages.github.com/); you can view the repo [here](https://github.com/songjx/songjx.github.io). Icons are from [Font Awesome](http://fortawesome.github.io/Font-Awesome/). 
+This site was generated using [Jekyll](http://jekyllrb.com) and is hosted on [Github Pages](https://pages.github.com/). Icons are from [Font Awesome](http://fontawesome.io/). 
