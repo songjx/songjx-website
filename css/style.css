@@ -16,7 +16,7 @@ p {
 #banner {
     width:100%;
     padding: 10px 0px;
-    box-shadow: -52px 0px 150px -20px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 0 100px -20px rgba(0, 0, 0, 0.15) inset;
     font-family: 'Open Sans', sans-serif;
     background-image: url('../images/noisy_grid.png');
     background-position: center;
@@ -61,8 +61,7 @@ p {
     box-shadow: 0px 0px 70px 10px rgba(255,255,255,.9) inset;
 }
 
-#name, #menu, #accounts, #menu li {
-    /*float:left;*/
+#name, #menu, #menu li {
     display: inline-block;
 }
 
@@ -72,10 +71,6 @@ p {
 
 .fa-square {
     color: transparent;
-}
-
-.activeIcon {
-    color: rgba(255,255,255,1);
 }
 
 #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
@@ -126,11 +121,10 @@ hr {
 
 .tile {
     width:200px;
-    margin-right: 1em;
+    margin: .5em;
     border:1px solid lightGray;
     border-radius:3px;
     text-align: center;
-    float:left;
 }
 
 .tile img {
@@ -142,7 +136,13 @@ hr {
     opacity: 0.7;
 }
 
-.img-step:after, .downloadItem:after, .tile-wrapper:after, .img-wide:after {
+.tile-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.img-step:after, .downloadItem:after, .img-wide:after {
     clear:both;
     display:block;
     content:'';
