@@ -1,0 +1,33 @@
+<h2 class="on-hr">Links<i class="fa fa-external-link"></i></h2>
+<hr>
+<div id="links">
+{{ range $index, $element := .Page.Site.Data.links}}
+    <div class="linkCat">
+        <h3>{{ $index }}</h3>
+        <ul>
+            {{ range . }}
+            <li><a href="{{ .url }}">{{ .name }}</a>: {{ .tagline }}</li>
+            {{ end }}
+        </ul>
+    </div>
+{{ end }}
+</div>
+
+<h2 class="on-hr">Downloads <i class="fa fa-download"></i></h2>
+<hr>
+{{ range .Page.Site.Data.downloads.items }}
+<div class="downloadItem">
+    <img 
+        src="/images/{{ $.Site.Data.downloads.imagedir }}/{{ .image }}" 
+        alt="{{ .name }}">
+    <h3>{{ .name }}</h3>
+    {{ .description }}  
+    <ul>
+        {{ range .files }}
+        <li>
+            <a href="/downloads/{{ . }}">{{ . }}</a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}

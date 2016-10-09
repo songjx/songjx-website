@@ -1,3 +1,0 @@
-highlighter: rouge
-exclude: [Gemfile, Gemfile~, Gemfile.lock]
-url: http://jsong.me/

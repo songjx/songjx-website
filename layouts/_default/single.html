@@ -1,0 +1,7 @@
+{{ partial "header" . }}
+<h1> {{ .Title }} </h1>
+{{ if eq .Section "post"}}
+<h3> {{ .Date.Format "Monday, January 2, 2006" }}</h3>
+{{ end }}
+{{ .Content }}
+{{ partial "footer" . }}

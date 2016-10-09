@@ -1,0 +1,23 @@
+{{ partial "header" . }}
+<div class="archive">
+    {{ range where .Data.Pages "Section" "post" }}
+    <article class="archive-item">
+        <h3><a href="{{ .Permalink }}" class="archive-item-link">{{ .Title }}</a></h3>
+        <span class="archive-item-date">
+        {{ .Date.Format "January 2, 2006" }}
+        </span>
+        <div>
+            {{ .Summary | plainify | safeHTML }}
+            {{ if .Truncated }}
+            <a class="button is-link" href="{{ .Permalink }}" style="height:28px">
+            Read more
+            <span class="icon is-small">
+                <i class="fa fa-angle-double-right"></i>
+            </span>
+            </a>
+            {{ end }}
+        </div>
+    </article>
+    {{ end }}
+</div>
+{{ partial "footer" . }}

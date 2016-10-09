@@ -1,0 +1,52 @@
+---
+Supplies:
+  - name: McMaster-Carr
+    url: http://mcmaster.com
+    tagline: 'tools, hardware, materials, and industrial supplies.'
+  - name: Sparkfun
+    url: http://sparkfun.com
+    tagline: 'electronics and robotics supplies.'
+  - name: Woodcraft
+    url: http://www.woodcraft.com/
+    tagline: 'woodworking tools and lumber'
+  - name: Digi-Key
+    url: http://www.digikey.com/
+    tagline: 'electronic components'
+  - name: SDP/SI
+    url: http://www.sdp-si.com/
+    tagline: 'precision mechanical components'
+  - name:   Pololu
+    url: http://www.pololu.com/
+    tagline: 'Robotics and electronics'
+  - name: HobbyPartz
+    url: http://www.hobbypartz.com/
+    tagline: 'Hobby motors, batteries, sensors, controllers, and more'
+  - name: MonsterSlayer
+    url: https://www.monsterslayer.com/Pages/CatalogIndex.aspx
+    tagline: 'metals, findings, components, and tools for jewelry making'
+  - name: Contenti
+    url: www.contenti.com
+    tagline: 'jewelry making supplies, tools, machines, and equipment.'
+DIY/Tutorials: 
+  - name:  Instructables 
+    url: http://instructables.com
+    tagline: 'a community for user-created projects.'
+  - name: Woodgears
+    url: http://woodgears.ca
+    tagline: '"An engineer''s approach to woodworking."'
+  - name: Ravelry
+    url: http://ravelry.com
+    tagline: 'Free knitting patterns and a fiber art community.'
+Engineering: 
+  - name: Design World
+    url: http://www.designworldonline.com
+    tagline: 'Design engineering articles, podcasts, videos, and more.'
+Music: 
+  - name: IMSLP
+    url: http://imslp.org
+    tagline: The International Music Score Library Project. Public domain classical sheet music and recordings.    
+Friends:
+  - name: Peter Ascoli
+    url: http://peterascoli.com
+    tagline: 'Engineer, photographer, classmate, and occasional partner in crime.'
+

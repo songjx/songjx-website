@@ -1,0 +1,5 @@
+<ul>
+    {{ range .Page.Site.Data.jackie.accounts}}
+    <li><a href="{{ .url }}">{{ .site }}</a></li>
+    {{ end }}
+</ul>
