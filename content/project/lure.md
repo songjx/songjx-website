@@ -1,9 +1,8 @@
 ---
 title: LURE
-layout: default
-categories: [Projects, Completed]
-image-layout: true
-image-dir: /images/lure
+categories: [School]
+tags: [art, kinetic, electronics]
+imagedir: /images/lure
 thumbnail: lure13.jpg
 
 segments:

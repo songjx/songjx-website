@@ -1,9 +1,8 @@
 ---
 title: Helicopter
-layout: default
-categories: [Projects, Completed]
-image-layout: true
-image-dir: /images/helicopter
+categories: [School]
+tags: [electronics]
+imagedir: /images/helicopter
 thumbnail: helicopter5.jpg
 
 segments:

@@ -1,9 +1,8 @@
 ---
 title: 3D Printed Injection Molds
-layout: default
-categories: [Projects, Completed]
-image-layout: true
-image-dir: /images/printed-molds
+categories: [School]
+tags: [3D printing]
+imagedir: "/images/printed-molds"
 thumbnail: mold-half-glove.jpg
 segments: 
   - text: My classmate and I wanted to investigate the possibility of 3D printing working injection mold prototypes on a deesktop 3D printer. We had access to a MakerBot replicator, a press mounted mini injection molding machine, and a larger cabinet style Stratasys printer. After a few iterations, we came up with a working procedure for making the molds. The accuracy and precision of the molds were limited, of course, by the printers themselves; the mold geometry also had to be kept simple. 

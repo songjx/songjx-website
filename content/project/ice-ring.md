@@ -1,9 +1,8 @@
 ---
 title: Ice Ring
-layout: default
-categories: [DIY, Food]
-image-layout: true
-image-dir: /images/ice-ring
+categories: [DIY]
+tags: [food, casting]
+imagedir: /images/ice-ring
 thumbnail: ice34.jpg
 segments:
   - text: The ice ring was a mini project for a course here at Cooper called Design and Prototyping; the objcetive was to make a two-part silicone mold for an interesting ice cube. I wrote a detailed tutorial for this project, which you can find on my Instructables page.

@@ -3,5 +3,9 @@ contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
 baseurl: "http://jsong.me"
-title: "Jackie's personal website"
+title: "Jackie's homepage"
+enableEmoji: true
+taxonomies:
+  category: "categories"
+  tags: "tags"
 ---

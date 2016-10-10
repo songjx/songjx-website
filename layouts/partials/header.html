@@ -3,20 +3,26 @@
 
 <html>
     <head>
-	<title>Jackie Song | {{ .Title }}</title>
+	<title>jsong.me | {{ .Title }}</title>
 	<meta charset='utf-8'>
     <link   href="/css/style.css" 
             rel="stylesheet" 
             type="text/css" />
     <link   href="/font-awesome-4.6.3/css/font-awesome.min.css" 
-            rel="stylesheet" 
+            rel="stylesheet"
             type="text/css" />
     <link   href='http://fonts.googleapis.com/css?family=Open+Sans' 
             rel='stylesheet' 
-            type='text/css'>
+            type='text/css' />
     <link   href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' 
             rel='stylesheet' 
-            type='text/css'>
+            type='text/css' />
+    {{ if .RSSlink }}
+    <link   href="{{ .Site.RSSLink }}" 
+            rel="feed alternate" 
+            type="application/rss+xml" 
+            title="{{ .Site.Title }}" />
+    {{ end }}
     </head>
     <body>
         <div id="banner">

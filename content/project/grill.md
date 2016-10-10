@@ -1,9 +1,8 @@
 ---
 title: Coleman Grill
-layout: default
-categories: [Projects, Completed]
-image-layout: true
-image-dir: /images/grill
+categories: [School]
+tags: [CAD]
+imagedir: /images/grill
 thumbnail: grill.jpg
 
 segments:

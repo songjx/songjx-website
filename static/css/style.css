@@ -36,8 +36,9 @@ p {
     text-decoration: none;
 }
 
-#content a:hover {
+#content a:hover, #footer a:hover {
     color:hotPink;
+    text-decoration: underline;
 }
 
 #content {
@@ -93,13 +94,9 @@ p {
     margin-bottom: 0em;
 }
 
-#content a {
+#content a, #footer a {
     color: SteelBlue;
     text-decoration: none;
-}
-
-#content a:hover {
-    text-decoration: underline;
 }
 
 #links {
@@ -187,4 +184,11 @@ img, .img-wide {
 
 .img-wide img {
     width:100%;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 5em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 105%;
 }

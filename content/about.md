@@ -4,7 +4,7 @@ title: About
 
 ## Hello!
 
-I'm Jackie Song, engineer and person who likes to make things.
+I'm Jackie Song, engineer and person who likes to make things. :cat:
 
 ## Contact
 

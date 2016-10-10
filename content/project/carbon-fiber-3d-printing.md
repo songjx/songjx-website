@@ -1,9 +1,8 @@
 ---
 title: Carbon Fiber 3D Printing
-layout: default
-categories: [Projects, Ongoing]
-image-layout: true
-image-dir: /images/carbon-fiber
+categories: [School]
+tags: [3D printing, robots]
+imagedir: /images/carbon-fiber
 thumbnail: pultrusion.jpg
 segments: 
   - text: For our capstone mechanical engineering senior project at The Cooper Union, <a href="http://www.peterascoli.com">Peter Ascoli</a> and I are working on a filament manufacturing and printing method for curved-layer carbon fiber reinforced polymer fused deposition modeling. <a href="https://s3.amazonaws.com/jsong.me/Peter+Jackie+Senior+Project+Semester+1+Poster.pdf">View our fall semester project poster here!</a>
