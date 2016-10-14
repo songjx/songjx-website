@@ -10,9 +10,11 @@
             ga('create', 'UA-56478222-1', 'auto');
             ga('send', 'pageview');
         </script>
-        <div id="footer">
-            <a href="{{ .Site.RSSLink }}" type="application/rss+xml" target="_blank">RSS</a>
-            <i class="fa fa-rss"></i>
-        </div>
 	</body>
+</div>
+<div id="footer">
+    <div id="footer-wrapper">
+        <a href="#top">Back to top <i class="fa fa-angle-up"></i></a>
+        <a href="{{ .Site.RSSLink }}" type="application/rss+xml" target="_blank">RSS <i class="fa fa-rss"></i></a>
+    </div>
 </html>

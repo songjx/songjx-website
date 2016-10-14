@@ -1,7 +1,11 @@
 {{ partial "header" . }}
-<h1>Recent posts</h1>
+<div class="section-head">
+    <h1 class="on-hr">Recent posts</h1>
+    <a href="/post">See all</a>
+    <hr>
+</div>
 <div class="recent">
-    {{ range where .Data.Pages "Section" "post" }}
+    {{ range first 5 (where .Data.Pages "Section" "post") }}
     <article class="recent-item">
         <h3><a href="{{ .Permalink }}" class="recent-item-link">{{ .Title }}</a></h3>
         <span class="recent-item-date">
@@ -22,6 +26,20 @@
     {{ end }}
 </div>
 
-<h1>Projects</h1>
-<div class="projects"></div>
+<div class="section-head">
+    <h1 class="on-hr">Past Projects</h1>
+    <a href="/project">See all</a>
+    <hr>
+</div>
+<div class="projects">
+    <div class="tile-wrapper">
+{{ range first 6 (where .Data.Pages "Section" "project") -}}
+    <div class="tile">
+        <a href="{{ .Permalink }}">
+            <img src="{{ .Params.imagedir }}/{{ .Params.thumbnail }}">
+            {{ .Title }}
+        </a>
+    </div>
+{{- end }}
+</div>
 {{ partial "footer" . }}
