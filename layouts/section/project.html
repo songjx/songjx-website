@@ -1,16 +1,11 @@
 {{ partial "header" . }}
-
 <h1>{{ .Title }}</h1>
-    <div class="tile-wrapper">
-{{ range where .Data.Pages "Section" "project" -}}
-        <div class="tile">
-            <a href="{{ .Permalink }}">
-                <img src="{{ .Params.imagedir }}/{{ .Params.thumbnail }}">
-                {{ .Title }}
-            </a>
-        </div>
-{{- end }}
+<div class="tile-wrapper">
+    {{ range shuffle (where .Data.Pages "Section" "project") -}}
+    {{ .Render "tile" }}
+    {{- end }}
     <div class="tile empty-tile"></div>
     <div class="tile empty-tile"></div>
-    </div>
+    <div class="tile empty-tile"></div>
+</div>
 {{ partial "footer" . }}

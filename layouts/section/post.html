@@ -1,0 +1,8 @@
+{{ partial "header" . }}
+<h1>{{ .Title }}</h1>
+<ul class="post-ul">
+{{ range .Data.Pages.ByPublishDate }}
+{{ .Render "li" }}
+{{ end }}
+</ul>
+{{ partial "footer" . }}
