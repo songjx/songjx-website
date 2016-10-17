@@ -234,6 +234,7 @@ hr {
     justify-content: space-between;
     width: 50%;
     margin: auto;
+    min-width: 200px;
 }
 
 .gray-out {

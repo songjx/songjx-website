@@ -5,6 +5,7 @@ publishdir: "public"
 baseurl: "http://jsong.me"
 title: "Jackie's homepage"
 enableEmoji: true
+MetaDataFormat: "yaml"
 taxonomies:
   category: "categories"
   tag: "tags"
