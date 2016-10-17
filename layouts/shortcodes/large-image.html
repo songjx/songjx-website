@@ -1,5 +1,5 @@
 <a href="{{ .Page.Params.imagedir }}/{{ .Get "image" }}">
     <img    class="large-image"
-            alt="{{ .Get "alt" }}"
+            {{ with .Get "alt" }} alt="{{ . }}" {{ end }}
             src="{{ .Page.Params.imagedir }}/{{ .Get "image" }}">
-</a>    
+</a>

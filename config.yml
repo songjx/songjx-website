@@ -7,5 +7,5 @@ title: "Jackie's homepage"
 enableEmoji: true
 taxonomies:
   category: "categories"
-  tags: "tags"
+  tag: "tags"
 ---

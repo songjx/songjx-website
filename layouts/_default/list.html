@@ -1,3 +1,9 @@
 {{ partial "header" . }}
-this is a list template.
+
+<h1>{{ .Data.Singular }}: {{ .Title }}</h1>
+<ul class="page-ul">
+{{ range .Data.Pages }}
+    {{ .Render "li"}}
+{{ end }}
+</ul>
 {{ partial "footer" . }}

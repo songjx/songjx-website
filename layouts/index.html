@@ -6,25 +6,7 @@
 </div>
 <div class="recent">
 {{ range first 5 (where .Data.Pages "Section" "post") }}
-<article class="recent-post">
-    <div class="shared-head">
-        <h3><a href="{{ .Permalink }}" class="recent-item-link">{{ .Title }}</a></h3>
-        <span class="recent-item-date">
-        {{ .Date.Format "January 2, 2006" }}
-        </span>
-    </div>
-    <div>
-        {{ .Summary | plainify | safeHTML }}
-        {{ if .Truncated }}
-        <a class="button is-link" href="{{ .Permalink }}" style="height:28px">
-            Read more
-            <span class="icon is-small">
-                <i class="fa fa-angle-double-right"></i>
-            </span>
-        </a>
-        {{ end }}
-    </div>
-</article>
+{{ .Render "summary" }}
 {{ end }}
 </div>
 

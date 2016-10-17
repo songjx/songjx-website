@@ -1,7 +1,19 @@
 {{ partial "header" . }}
-<h1> {{ .Title }} </h1>
+<h1 id="post-title"> {{ .Title }} </h1>
 {{ if eq .Section "post"}}
-<h3> {{ .Date.Format "Monday, January 2, 2006" }}</h3>
+<div id="post-date"> {{ .Date.Format "Monday, January 2, 2006" }}</div>
 {{ end }}
+
+{{ with .Params.tags }}
+{{ if ge (len .) 1 }}
+<i class="fa fa-tag"></i>
+{{ range . }}
+<a class="tag-button" href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a>
+{{ end }}
+{{ end }}
+{{ end }}
+<br/><br/>
+
 {{ .Content }}
+{{ partial "nav" . }}
 {{ partial "footer" . }}

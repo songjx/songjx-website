@@ -1,0 +1,13 @@
+<div id="nav">
+    {{ if .PrevInSection }}
+    <a href="{{ .PrevInSection.Permalink }}"><i class="fa fa-angle-left"></i> Previous {{ .Section }}</a>
+    {{ else }}
+    <span class="gray-out"><i class="fa fa-angle-left"></i> Previous {{ .Section }}</span>
+    {{ end }}
+    <span>|</span>
+    {{ if .NextInSection }}
+    <a href="{{ .NextInSection.Permalink }}">Next {{ .Section }} <i class="fa fa-angle-right"></i></a>
+    {{ else }}
+    <span class="gray-out">Next {{ .Section }} <i class="fa fa-angle-right"></i></span>
+    {{ end }}
+</div>

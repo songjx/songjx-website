@@ -1,7 +1,10 @@
 ---
 title: "Test post #2"
-date: "2016-10-08"
+date: "2016-10-15"
 description: "it's another test post"
+tags: [test]
+imagedir: images/test-post-2
+thumbnail: cat.jpg
 ---
 
 Aliquam quis suscipit nisl. Nam nec tempor tellus, nec placerat mauris. Morbi eleifend, neque a condimentum posuere, arcu lectus vehicula eros, a pretium enim nulla eget mauris. Fusce pulvinar leo nunc, id suscipit dolor dapibus sit amet. Nunc et felis non felis egestas cursus. Nullam sollicitudin sed enim eget porta. Proin ultrices, erat in tempor tristique, nunc ante vestibulum est, ut scelerisque orci quam sed tellus.
