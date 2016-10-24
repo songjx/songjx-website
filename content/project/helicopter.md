@@ -2,8 +2,8 @@
 title: Helicopter
 categories: [School]
 tags: [electronics]
-imagedir: /images/helicopter
-thumbnail: helicopter5.jpg
+imagedir: https://s3-us-west-2.amazonaws.com/js-media/images/helicopter
+thumbnail: helicopter5_thumb.jpg
 ---
 
 I made Helicopter in my with a classmate for a course at Cooper called ECE150 Digial Logic Design, in my fist semester here. The course gives students a rundown in Boolean logic and breadboarding basic digital circuits using mostly CMOS logic components.

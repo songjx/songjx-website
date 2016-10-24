@@ -3,3 +3,5 @@ _site/
 *.lock
 *.swp
 .vscode
+deploy.sh
+thumb.sh

@@ -1,5 +1,5 @@
 ---
 tags: []
-imagedir: ""
-thumbnail: ""
+imagedir:
+thumbnail: 
 ---

@@ -14,7 +14,7 @@
 {{ end }}
 
 {{ .Content }}
-{{ if (eq .Section "post") or (eq .Section "project") }}
+{{ if or (eq .Section "post") (eq .Section "project") }}
 {{ partial "nav" . }}
 {{ end }}
 {{ partial "footer" . }}

@@ -2,8 +2,8 @@
 title: Polymer Clay Sushi
 categories: [DIY]
 tags: [art, jewelry]
-imagedir: /images/sushi
-thumbnail: sushi3.jpg
+imagedir: https://s3-us-west-2.amazonaws.com/js-media/images/sushi
+thumbnail: sushi1_thumb.jpg
 ---
 
 I made these sushi pieces during one summer in high school. They're all made of polymer clay; I used mostly Premo brand polymer clay, with a bit of Kato for certain effects. I owe many of the techniques I used to books by Donna Kato.

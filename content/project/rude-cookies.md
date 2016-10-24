@@ -2,8 +2,8 @@
 title: Rude Cookies
 categories: [DIY]
 tags: [art, food]
-imagedir: /images/rude
-thumbnail: cookie44.jpg
+imagedir: https://s3-us-west-2.amazonaws.com/js-media/images/rude
+thumbnail: cookie44_thumb.jpg
 ---
 
 My roommate and I have started a wonderful tradition of making rude cookies for Valentine's Day, just to lighten up the atmosphere a bit around school. We may decide to sell them beyond school for the coming season. Stay tuned.

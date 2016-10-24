@@ -3,8 +3,8 @@ title: Planetary Gear Light Switch
 layout: default
 categories: [School]
 tags: [laser cutting, kinetic]
-imagedir: /images/light-switch
-thumbnail: still.jpg
+imagedir: https://s3-us-west-2.amazonaws.com/js-media/images/light-switch
+thumbnail: still_thumb.jpg
 ---
 
 'Here's a mini project I did for a class at Cooper called ME155: Design and Prototyping. It's a prototype for an add-on to a standard home dimming light switch. The laser cut gear assembly mounts onto the D shaft of the dimmer switch, where the plastic knob would normally go. As you rotate the ring gear, the planet gears are driven, which in turn drive the sun gear, which turns the D shaft, adjusting the light level.'

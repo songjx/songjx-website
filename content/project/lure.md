@@ -2,8 +2,8 @@
 title: LURE
 categories: [School]
 tags: [art, kinetic, electronics]
-imagedir: /images/lure
-thumbnail: lure13.jpg
+imagedir: https://s3-us-west-2.amazonaws.com/js-media/images/lure
+thumbnail: lure13_thumb.jpg
 ---
 
 In 2012, I worked with Peter Ascoli to create a pair of kinetic sculptures for New York artist MaDora Frey. We worked with the artist from her initial concept through the aesthetics, materials, construction, and fabrication. One of the sculptures raises and lowers a glittery chunk of pyrite; the other grasps at it endlessly.

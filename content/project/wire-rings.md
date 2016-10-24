@@ -2,8 +2,8 @@
 title: Wire Rings
 categories: [DIY]
 tags: [art, jewelry]
-imagedir: /images/rings
-thumbnail: rings2.jpg
+imagedir: https://s3-us-west-2.amazonaws.com/js-media/images/rings
+thumbnail: rings2_thumb.jpg
 ---
 
 Here are some brass finger rings I made for soldering practice. The wire is 20ga round brass from Monster Slayer; the solder is silver.

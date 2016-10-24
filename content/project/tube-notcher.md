@@ -2,8 +2,8 @@
 title: Tube Notcher
 categories: [School]
 tags: [machining]
-imagedir: /images/tube-notcher
-thumbnail: full-system-render.jpg
+imagedir: https://s3-us-west-2.amazonaws.com/js-media/images/tube-notcher
+thumbnail: full-system-render_thumb.jpg
 ---
 
 For a year-long mechanical design course at Cooper, I have teamed up with four of my classmates to build an industrial tube notching machine. We will carry out all of the necessary engineering analysys to specify a safe, useful, and durable tube notcher to live in the school's student machine shop. Deliverables will include the installed, working machine, a technical report including all analysis and design methodology, and service and maintenance documentation.

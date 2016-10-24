@@ -2,8 +2,8 @@
 title: Phoenix Prom Dress
 categories: [DIY]
 tags: [art, sewing]
-imagedir: /images/phoenix
-thumbnail: phoenix2.jpg
+imagedir: https://s3-us-west-2.amazonaws.com/js-media/images/phoenix
+thumbnail: phoenix2_thumb.jpg
 ---
 
 In my senior year of high school, Jo-ann Fabric and Craft Stores held a nationwide prom dress sewing contest. First prize was $50,000. All materials had to be from Jo-ann. That was all. That year I was enrolled in an intro sewing class at school, so I thought I had a shot at winning.

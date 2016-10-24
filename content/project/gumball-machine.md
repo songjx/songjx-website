@@ -2,8 +2,8 @@
 title: Gumball Machine
 categories: [School]
 tags: [laser cutting, kinetic, electronics]
-imagedir: /images/gumball
-thumbnail: gumball9.jpg
+imagedir: https://s3-us-west-2.amazonaws.com/js-media/images/gumball
+thumbnail: gumball9_thumb.jpg
 ---
 
 I built this machine for a freshman design course at Cooper called EID103 Principles of Design. The course is meant to give mechanical engineering students a feel for planning and executing a design cycle. My assignment was to make a game based on the Arduino microcontroller platform. Students from a previous year had made a simpler gumball machine that involved a color sensor and a classic spiral track. I was tasked with presenting the next iteration of their idea. Here's how the finished product worked.

@@ -1,8 +1,8 @@
 ---
 title: Delta Robot Icing Printer
 categories: [School, robots, 3D printing, food, electronics]
-imagedir: /images/icing
-thumbnail: icing4.jpg
+imagedir: https://s3-us-west-2.amazonaws.com/js-media/images/icing
+thumbnail: icing4_thumb.jpg
 ---
 
 Cooper held its first hackathon, HackCooper, in February 2014. Having an engineering school but no computer science major, the hackathon was uniquely dominated by hardware projects. I teamed up with a classmate to make a delta robot icing printer in 24 short (but actually quite long) hours.
