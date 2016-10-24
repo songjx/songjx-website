@@ -8,7 +8,7 @@
 {{ if ge (len .) 1 }}
 <i class="fa fa-tag"></i>
 {{ range . }}
-<a class="tag-button" href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a>
+<a class="tag-button" href="{{ $.Site.BaseURL }}/tags/{{ . | urlize }}">{{ . }}</a>
 {{ end }}
 {{ end }}
 {{ end }}
