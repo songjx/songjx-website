@@ -1,9 +1,9 @@
 ---
-imagedir: https://s3-us-west-2.amazonaws.com/js-mediadownloads
+imagedir: https://s3-us-west-2.amazonaws.com/js-media/images/downloads
 items:
   - name: Laser cut gear templates
     image: gear-eps.png
-    description: 'All of these gears have 12 diametral pitch, 20 degree pressure angle. Spur gears range from 10 to 54 teeth, with varying bore sizes. One straight gear and assorted internal gears are included as well.' 
+    description: 'All of these gears have 12 diametral pitch, 20 degree pressure angle. Spur gears range from 10 to 54 teeth, with varying bore sizes. One straight gear and assorted internal gears are included as well.'
     files: [scaled-gearset.dwg, scaled-gearset.dxf, scaled-gearset.eps]
   - name: Arduino hole template
     image: arduino-holes-eps.png

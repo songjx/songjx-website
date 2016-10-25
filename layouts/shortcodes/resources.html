@@ -17,11 +17,11 @@
 <hr>
 {{ range .Page.Site.Data.downloads.items }}
 <div class="downloadItem">
-    <img 
-        src="/images/{{ $.Site.Data.downloads.imagedir }}/{{ .image }}" 
+    <img
+        src="{{ $.Site.Data.downloads.imagedir }}/{{ .image }}" 
         alt="{{ .name }}">
     <h3>{{ .name }}</h3>
-    {{ .description }}  
+    {{ .description }}
     <ul>
         {{ range .files }}
         <li>
