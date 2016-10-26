@@ -14,4 +14,4 @@ Email me at {{< email >}}, or find me on these other sites:
 
 ## Site
 
-This site was generated using [Hugo](https://gohugo.io/) and is hosted on [Github Pages](https://pages.github.com/). Icons are from [Font Awesome](http://fontawesome.io/). 
+This site is generated using [Hugo](https://gohugo.io/). Icons are from [Font Awesome](http://fontawesome.io/). 

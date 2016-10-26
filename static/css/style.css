@@ -89,6 +89,7 @@ a:hover, #footer a:hover {
 h1, h2, h3, h4, h5, h6 {
     color: #212233;
     margin-bottom: 0.5em;
+    line-height: 1.2em;
 }
 
 #post-date {
@@ -126,6 +127,10 @@ iframe {
 
 .shared-head {
     margin-bottom: 0.3em;
+}
+
+.shared-head h3 {
+    margin-right: .5em;
 }
 
 a, #footer a {
@@ -270,7 +275,7 @@ hr {
     color: black;
 }
 
-.section-head a, .recent-item-date {
+.section-head a {
     margin-left: 1em;
 }
 
