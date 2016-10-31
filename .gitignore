@@ -3,6 +3,6 @@ _site/
 *.lock
 *.swp
 .vscode
-deploy.sh
+s3-deploy
 thumb.sh
 public
