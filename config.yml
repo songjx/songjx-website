@@ -9,4 +9,6 @@ MetaDataFormat: "yaml"
 taxonomies:
   category: "categories"
   tag: "tags"
+blackfriday:
+  fractions: false
 ---
