@@ -2,7 +2,7 @@
 date: 2016-10-24T21:48:00-07:00
 imagedir: https://s3-us-west-2.amazonaws.com/js-media/images
 tags: [sewing, zippers]
-thumbnail: old-zip-pouches/old3-thumb.jpg
+thumbnail: old-zip-pouches/thumb.jpg
 title: "Dealing with seams in zipper pouches, Part 1: previous attempts"
 ---
 
