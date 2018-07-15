@@ -22,8 +22,8 @@ p {
 #banner {
     padding: 10px 3%;
     box-shadow: 0 0 100px -20px rgba(0, 0, 0, 0.15) inset;
-    font-family: 'PT Sans', sans-serif;
-    background-image: url('/images/noisy_grid.png');
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #eee;
     background-position: center;
     display: flex;
     justify-content: space-between;
@@ -92,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5em;
     line-height: 1.2em;
     font-weight: normal;
+    font-family: 'Fira Sans';
 }
 
 #post-date {
@@ -286,7 +287,6 @@ hr {
 
 #post-title {
     font-weight: normal;
-    font-family: 'PT Sans';
 }
 
 .section-head a {
