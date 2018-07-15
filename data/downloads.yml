@@ -1,5 +1,6 @@
 ---
 imagedir: https://s3-us-west-2.amazonaws.com/js-media/images/downloads
+filedir: https://s3-us-west-2.amazonaws.com/js-media/downloads
 items:
   - name: Laser cut gear templates
     image: gear-eps.png

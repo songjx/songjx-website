@@ -4,6 +4,7 @@
 <div id="post-date"> {{ .Date.Format "Monday, January 2, 2006" }}</div>
 {{ end }}
 
+<div id="taglist">
 {{ with .Params.tags }}
 {{ if ge (len .) 1 }}
 <i class="fa fa-tag"></i>
@@ -12,6 +13,7 @@
 {{ end }}
 {{ end }}
 {{ end }}
+</div>
 
 {{ .Content }}
 {{ if or (eq .Section "post") (eq .Section "project") }}

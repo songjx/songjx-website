@@ -14,7 +14,7 @@ p {
 }
 
 #name {
-    font-size:250%;
+    font-size:200%;
     margin: 0;
     float:left;
 }
@@ -22,7 +22,7 @@ p {
 #banner {
     padding: 10px 3%;
     box-shadow: 0 0 100px -20px rgba(0, 0, 0, 0.15) inset;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     background-image: url('/images/noisy_grid.png');
     background-position: center;
     display: flex;
@@ -37,16 +37,17 @@ p {
 }
 
 a:hover, #footer a:hover {
-    color:hotPink;
+    color: #b6276e;
     text-decoration: underline;
 }
 
 #content {
     background-color:white;
     padding:40px 40px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 84%;
     line-height: 1.3em;
-    max-width: 750px;
+    max-width: 650px;
     margin: auto;
     margin-top: 2em;
     padding: 0 3%;
@@ -67,7 +68,7 @@ a:hover, #footer a:hover {
 #menu li  {
     padding: 0 10px;
     list-style-type:none;
-    font-size:150%;
+    font-size: 125%;
 }
 
 #menu li:hover {
@@ -90,19 +91,23 @@ h1, h2, h3, h4, h5, h6 {
     color: #212233;
     margin-bottom: 0.5em;
     line-height: 1.2em;
+    font-weight: normal;
 }
 
 #post-date {
     color: #444;
     margin: .4em 0;
+    color: #666;
+    font-size: 90%;
 }
 
 .tag-button {
-    margin: 0 .3em;
+    margin: 0 .07em;
     padding: 0px 5px;
     border-radius: 2px;
     background-color: #ddd;
     color: black;
+    font-size: 90%;
 }
 
 .tag-button:hover {
@@ -123,18 +128,19 @@ iframe {
 
 .on-hr, .shared-head h3 {
     display: inline;
+    font-weight: normal;
 }
 
 .shared-head {
     margin-bottom: 0.3em;
 }
 
-.shared-head h3 {
+.shared-head h3, .post-ul a {
     margin-right: .5em;
 }
 
 a, #footer a {
-    color: SteelBlue;
+    color: #2c6bc4;
     text-decoration: none;
 }
 
@@ -217,7 +223,7 @@ hr {
 
 .large-image {
     margin: 1em auto;
-    max-width: 70%;
+    max-width: 90%;
     display: block;
     max-height: 450px;
 }
@@ -258,7 +264,6 @@ hr {
     text-align: center;
     margin-top: 4em;
     padding: 1em 3%;
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 105%;
     background-color: #eee;
 }
@@ -275,8 +280,21 @@ hr {
     color: black;
 }
 
+#taglist {
+    margin-bottom: 1.2em;
+}
+
+#post-title {
+    font-weight: normal;
+    font-family: 'PT Sans';
+}
+
 .section-head a {
     margin-left: 1em;
+}
+
+.section-head {
+    margin-bottom: 1em;
 }
 
 .recent-item-date {
@@ -292,7 +310,7 @@ hr {
 }
 
 .post-ul a, .page-ul a {
-    font-size: 130%;
+    font-size: 110%;
 }
 
 .post-ul li, .page-ul li {

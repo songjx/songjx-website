@@ -18,14 +18,14 @@
 {{ range .Page.Site.Data.downloads.items }}
 <div class="downloadItem">
     <img
-        src="{{ $.Site.Data.downloads.imagedir }}/{{ .image }}" 
+        src="{{ $.Site.Data.downloads.imagedir }}/{{ .image }}"
         alt="{{ .name }}">
     <h3>{{ .name }}</h3>
     {{ .description }}
     <ul>
         {{ range .files }}
         <li>
-            <a href="/downloads/{{ . }}">{{ . }}</a>
+            <a href="{{ $.Site.Data.downloads.filedir }}/{{ . }}">{{ . }}</a>
         </li>
         {{ end }}
     </ul>
